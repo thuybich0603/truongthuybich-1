@@ -1,0 +1,114 @@
+body{
+    font-size: 13px;
+    background-color: rgb(180, 252, 229);
+}
+.main{
+    max-width: 1000px;
+    max-height: 1000px;
+    margin: auto;
+}
+.left{
+    width: 35%;
+    
+    background-color: rgb(51, 49, 53);
+    float: left;
+    color: white;
+    height: 1000px;
+    line-height: 1.5;
+    
+}
+.right{
+    width: 65%;
+    height: 1000px;
+    background-color: rgb(252, 248, 248);
+    float: left;
+    font-size: 13px;
+}
+.image{
+    margin-top: 50px;
+    height: 170px;
+    border-radius: 50%;
+}
+.contact, .language, .skill, .hobbies{
+    margin-top: 20px;
+}
+
+li{
+    padding: 0px 30px 0 30px;
+}
+h4{
+    text-align: center;
+    color: white;
+    padding: 3px 0 3px 0;
+}
+.h4-1{ background-color: tomato; margin-top: 40px;}
+.h4-2{ background-color: rgb(42, 175, 64); margin-top: 40px;}
+.h4-3{background-color: rgb(247, 137, 11); margin-top: 40px;}
+.h4-4{background-color: rgb(172, 40, 165); margin-top: 40px;}
+ li{
+    list-style-type: none;
+
+}
+i{
+    color: rgb(156, 243, 243);
+}
+span{
+    margin: 0 20px 0 30px;
+   
+}
+.content{
+    padding: 70px 50px 50px 40px;
+    
+    
+}
+.title{
+    line-height: 1;
+    font-size: 14px;
+}
+.education{
+    margin-top: 50px;
+}
+hr{
+    background-color: black;
+    height: 1.5px;
+}
+.img{
+    text-align: center;
+}
+.inf{
+    font-size:20px;
+}
+.hob{
+    font-size:25px;
+}
+.ds{
+    clear:left;
+}
+.head4{
+    float:left; 
+    color: black;
+}
+.icon{
+    height: 35px;padding-right: 0px;margin-top: 10px; float: right;
+}
+.tin{
+    color:rgb(241, 106, 106);font-size:13px;
+}
+.parph{
+    font-weight:bold;
+}
+.td{
+    clear:left; 
+}
+.skillHtml{
+    width:90%;font-size: 4px;
+}
+.skillCss{
+    width:60%;font-size: 4px;
+}
+.skillJavascript{
+    width:40%;font-size: 4px;
+}
+.skillTeamWork{
+    width:50%;font-size: 4px;
+}

@@ -6,97 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <title>Lý lịch cá nhân</title>
-    <style>
-        body{
-            font-size: 13px;
-            background-color: rgb(180, 252, 229);
-        }
-        .main{
-            max-width: 1000px;
-            max-height: 1000px;
-            margin: auto;
-        }
-        .left{
-            width: 35%;
-            
-            background-color: rgb(51, 49, 53);
-            float: left;
-            color: white;
-            height: 1000px;
-            line-height: 1.5;
-            
-        }
-        .right{
-            width: 65%;
-            height: 1000px;
-            background-color: rgb(252, 248, 248);
-            float: left;
-            font-size: 13px;
-        }
-        .image{
-            margin-top: 50px;
-            height: 170px;
-            border-radius: 50%;
-        }
-        .contact, .language, .skill, .hobbies{
-            margin-top: 20px;
-        }
-        
-        li{
-            padding: 0px 30px 0 30px;
-        }
-        h4{
-            text-align: center;
-            color: white;
-            padding: 3px 0 3px 0;
-        }
-        .h4-1{ background-color: tomato; margin-top: 40px;}
-        .h4-2{ background-color: rgb(42, 175, 64); margin-top: 40px;}
-        .h4-3{background-color: rgb(247, 137, 11); margin-top: 40px;}
-        .h4-4{background-color: rgb(172, 40, 165); margin-top: 40px;}
-         li{
-            list-style-type: none;
-
-        }
-        i{
-            color: rgb(156, 243, 243);
-        }
-        span{
-            margin: 0 20px 0 30px;
-           
-        }
-        .content{
-            padding: 70px 50px 50px 40px;
-            
-            
-        }
-        .title{
-            line-height: 1;
-            font-size: 14px;
-        }
-        .education{
-            margin-top: 50px;
-        }
-        hr{
-            background-color: black;
-            height: 1.5px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
+    <title>Introduce Yoursefl</title>
 </head>
 <body>
     <div class="main">
         <div class="left">
             <div class="img">
-                <center><img class="image" src="https://scontent.fdad4-1.fna.fbcdn.net/v/t1.0-9/28056131_605008733224352_4803777517682564030_n.jpg?_nc_cat=0&oh=d1ba7362e817099343313365560a28ef&oe=5C60D7EE" alt="avatar">
-                </center>
+                <img class="image" src="https://scontent.fdad4-1.fna.fbcdn.net/v/t1.0-9/28056131_605008733224352_4803777517682564030_n.jpg?_nc_cat=0&oh=d1ba7362e817099343313365560a28ef&oe=5C60D7EE" alt="avatar">
             </div>
             <h4 class="h4-1">CONTACT</h4>
             <div class="contact">
-                <li><i class="fa fa-home" style="font-size: 20px"></i>119 Ong Ich Duong - Khue Trung - Cam le - Da Nang City</li>
-                <li><i class="fa fa-envelope-o" style="font-size:20px"></i>       thuybichtruong06031998@gmail.com</li>
-                <li><i class="fa fa-github" style="font-size:20px"></i>  https://github.com/thuybich0603</li>
-                <li><i class="fa fa-phone" style="font-size:20px"></i>           01283 327 061</li>
+                <li><i class="fa fa-home inf"></i>119 Ong Ich Duong - Khue Trung - Cam le - Da Nang City</li>
+                <li><i class="fa fa-envelope-o inf"></i>       thuybichtruong06031998@gmail.com</li>
+                <li><i class="fa fa-github inf"></i>  https://github.com/thuybich0603</li>
+                <li><i class="fa fa-phone inf"></i> 01283 327 061</li>
             </div>
             <h4 class="h4-2">LANGUAGES</h4>
             <div class="language">
@@ -110,25 +34,25 @@
             <h4 class="h4-3">SKILL</h4>
             <div class="skill">
                 <li>Html<div class="w3-light-grey w3-round-xlarge">
-                        <div class="w3-container w3-blue w3-round-xlarge" style="width:90%;font-size: 4px">100%</div>
+                        <div class="w3-container w3-blue w3-round-xlarge skillHtml" >90%</div>
                       </div></li>
                 <li>Css<div class="w3-light-grey w3-round-xlarge">
-                        <div class="w3-container w3-blue w3-round-xlarge" style="width:60%;font-size: 4px">100%</div>
+                        <div class="w3-container w3-blue w3-round-xlarge skillCss" >60%</div>
                       </div></li>
                 <li>Javascrip<div class="w3-light-grey w3-round-xlarge">
-                        <div class="w3-container w3-blue w3-round-xlarge" style="width:40%;font-size: 4px">100%</div>
+                        <div class="w3-container w3-blue w3-round-xlarge skillJavascrip">40%</div>
                       </div></li>
                 <li>Team work<div class="w3-light-grey w3-round-xlarge">
-                        <div class="w3-container w3-blue w3-round-xlarge" style="width:50%;font-size: 4px">100%</div>
+                        <div class="w3-container w3-blue w3-round-xlarge skillTeamWork">50%</div>
                       </div></li>
             </div>
             <h4 class="h4-4">HOBBIES</h4>
             <div class="hobbies">
-                <span><i class="fa fa-camera-retro" style="font-size:25px"></i></span>
-                <span><i class="fa fa-music" style="font-size:25px"></i></span>
-                <span><i class="fa fa-leanpub" style="font-size:25px"></i></span>
-                <span><i class="fa fa-bicycle" style="font-size:25px"></i></span>
-                <span><i class="fa fa-cinema" style="font-size:25px"></i></span>
+                <span><i class="fa fa-camera-retro hob"></i></span>
+                <span><i class="fa fa-music hob"></i></span>
+                <span><i class="fa fa-leanpub hob"></i></span>
+                <span><i class="fa fa-bicycle hob"></i></span>
+                <span><i class="fa fa-cinema hob"></i></span>
             </div>  
         </div>
         <div class="right">
@@ -141,50 +65,50 @@
                 </div>
 
                 <div class="education">
-                    <h4 style="float:left; color: black">EDUCATION</h4>
-                    <img style=" height: 35px;padding-right: 0px;margin-top: 10px; float: right"src="https://image.flaticon.com/icons/svg/182/182327.svg" alt="education ">
+                    <h4 class="head4">EDUCATION</h4>
+                    <img class="icon"src="https://image.flaticon.com/icons/svg/182/182327.svg" alt="education ">
                    
-                    <ul style="clear:left">
-                    <p style="font-weight:bold">2003-2008 <span style="color:rgb(241, 106, 106);font-size:13px">
+                    <ul class="td">
+                    <p class="parph">2003-2008 <span class="tin">
                             Ngo Quyen Primary School</span></p>
                             <p>
                                 245 Ong Ich Duong street - Khue Trung ward - Cam Le district - Da Nang city</p>
-                    <p style="font-weight:bold">2008-2013<span style="color:rgb(241, 106, 106);font-size:13px">Tran Quy Cap Junior High School
+                    <p class="parph">2008-2013<span class="tin">Tran Quy Cap Junior High School
                         </span></p>
                        <p>123 Cach Mang Thang Tam street - Khue Trung ward - Cam Le district - Da Nang city</p>
-                    <p style="font-weight:bold">2013-2016 <span style="color:rgb(241, 106, 106);font-size:13px">Hoa Vang High School</span></p>
+                    <p class="parph">2013-2016 <span class="tin">Hoa Vang High School</span></p>
                     <p>
                         97 Ong Ich Duong street - Khue Trung ward - Cam Le district - Da Nang city</p>
-                    <p style="font-weight:bold">2016-2019 <span style="color:rgb(241, 106, 106);font-size:13px">Information Technology College</span></p>
+                    <p class="parph">2016-2019 <span class="tin">Information Technology College</span></p>
                     <p>
                         Da Nang University City - Hoa Quy Ward - Ngu Hanh Son District - Danang city</p>
                 </ul>
                 </div>
                 
-                <div class="experience"style="clear:left">
-                    <h4 class="4" style="float:left; color: black;">WORK EXPERIENCE</h4>
-                    <img style=" height: 35px;padding-right: 0px;margin-top: 10px; float: right"src="https://image.flaticon.com/icons/svg/1063/1063196.svg" alt="work experience ">
-                    <ul style="clear:left">
-                        <p style="font-weight:bold">Working at<span style="color:rgb(241, 106, 106);font-size:13px">Information Technology College</span></p>
-                        <p style="font-weight:bold">Manager<span style="color:rgb(241, 106, 106);font-size:13px">  Foody's blog</span></p>
+                <div class="experience ds">
+                    <h4 class="head4">WORK EXPERIENCE</h4>
+                    <img class="icon"src="https://image.flaticon.com/icons/svg/1063/1063196.svg" alt="work experience ">
+                    <ul class="td">
+                        <p class="parph">Working at<span class="tin">Information Technology College</span></p>
+                        <p class="parph">Manager<span class="tin">  Foody's blog</span></p>
                         
                     </ul>    
                 </div>
-                <div class="experience"style="clear:left">
-                        <h4 class="4"style="float:left; color:black">ACHIEVEMENT</h4>
-                        <img style=" height: 35px;padding-right: 0px;margin-top: 10px; float: right"src="https://www.flaticon.com/premium-icon/icons/svg/941/941654.svg" alt="work experience ">
-                        <ul style="clear:left">
-                            <p style="font-weight:bold">Certificate: <span style="color:rgb(241, 106, 106);font-size:13px">
+                <div class="experience ds">
+                        <h4 class="head4">ACHIEVEMENT</h4>
+                        <img class="icon"src="https://www.flaticon.com/premium-icon/icons/svg/941/941654.svg" alt="work experience ">
+                        <ul class="td">
+                            <p class="parph">Certificate: <span class="tin">
                                 Completed Course Javascript at Sololearn</span></p>
-                                <p style="font-weight:bold">Certificate: <span style="color:rgb(241, 106, 106);font-size:13px">
+                                <p class="parph">Certificate: <span class="tin">
                                     Computer Science and Successful Startup</span></p>
                            
                         </ul>    
                     </div>
 
-                <div class="archievement"style="clear:left">
-                        <h4 class="4" style="float:left; color: black; ">ADVANCED</h4>
-                        <img style=" height: 35px;padding-right: 0px;margin-top: 10px; float: right"src="https://www.flaticon.com/premium-icon/icons/svg/15/15515.svg">
+                <div class="archievement ds">
+                        <h4 class="head4">ADVANCED</h4>
+                        <img class="icon"src="https://www.flaticon.com/premium-icon/icons/svg/15/15515.svg">
                         <ul style="clear:left">
                                 <p>1</p>
                                 <p>2</p>

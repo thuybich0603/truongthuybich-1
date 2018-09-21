@@ -1,0 +1,152 @@
+body{
+    margin: auto;
+    
+}
+.Header{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 100%;
+    align-items: center;
+    background-color: black;
+}
+.Header1{
+    width: 20%;
+    height: 100%;
+   
+}
+.Header2{
+    width: 80%;
+    height: 100%;
+    background-color: #00ff00;
+}
+
+.label{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+.heading1{
+    text-shadow: 0 1px 1px #fff;
+    font-family: "Great Vibes", cursive; 
+    font-weight: normal;
+    font-size: 30px;
+    color: orange;
+}
+.main{
+    width: 100%;
+    background-color: goldenrod;
+    height: 450px;
+    margin-top: 20px;
+}
+.content{
+    background-color: rgba(243, 239, 239, 0.87);
+    margin-top: 20px;
+}
+.section{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    width: 100%;
+    height: 340px;
+     padding-top: 0px;
+     padding-bottom: 30px;
+}
+
+.section1, .section2, .section3, .section4 {
+    width: 22%;
+    height: 100%;
+    border: 1px solid #bdbdbd ;
+    text-align: center;
+    box-shadow: 0px 0px 5px #aaaaaa;
+    background-color: #fff;
+}
+
+
+
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: #00ff00;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+}
+.image1{
+    width: 100%;
+    height: 97%;
+   border: 2px solid black;
+}
+.footer1{
+    width: 40%;
+    height: 100%;
+    background-color: aqua;
+    display: flex;
+    color: white;
+    
+    }
+.footer1-1{
+    background-color: black;
+    width: 30%;
+    height: 100%;
+    text-align: center;
+   
+}
+.footer1-2{
+    background-color: black;
+    width:70%;
+    text-align: justify;
+    padding-left: 50px;
+    border-right:1px solid #fff;
+    color: orange;
+    padding-top: 20px;
+    
+}
+h4{
+    color: #fff;
+}
+.thuybich{
+    
+    width: 70%;
+    height: 100px;
+    padding-left: 10px;
+    padding: 40px;
+    
+}
+.footer2{
+    width: 60%;
+    height: 100%;
+    color: orange;
+    background-color: black;    
+}
+.ls{
+    display: flex;
+    justify-content: space-around;
+}
+.ls1{
+    padding-top:20px;
+   
+}
+ul li{
+    list-style-type: none;
+}
+.lsCar{
+    width: 100%;
+    height: 200px;
+}
+body{
+   margin: 0 50px 0 50px;
+    border: 1px solid #bdbdbd;
+}
+.ph{
+    font-weight: bold;
+}
+.heading4{
+    text-align: center;
+}
