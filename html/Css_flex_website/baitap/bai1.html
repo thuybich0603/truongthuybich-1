@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            background-color: #f0f0f0;
+            font-family: Roboto,sans-serif;
+            line-height: 1.3;
+            box-sizing: border-box;
+        }
+        .head{
+            background-color: #1843c1;
+            height: 100px;
+            width: 100%;
+        }
+        .main{
+            display: flex;
+            justify-content:space-between;
+        }
+        .img{
+            padding: 25px 0 20px 155px;
+            text-align: left;
+           
+        }
+        .about{
+            text-align: left;
+            padding: 20px 155px 20px 0;
+            color: white;
+        }
+        .a1{
+            display: flex;
+            justify-content:space-between;
+            width: 80%;
+            margin: auto;
+            
+        }
+        .left{
+            background-color: white;
+            width: 850px;
+            height: 100%;
+            
+        }
+        .right{
+            background-color: rgb(24, 67, 193);
+            height: 100%;
+            width: 350px;
+            margin-left: 30px;
+        }
+        .content{
+            padding: 0 50px 30px 50px; 
+            font-size: 17px;
+        }
+       h1{font-weight: bold;}
+      .language-makeup{
+          overflow: auto;
+          background-color: black;
+          padding: 1em;
+          margin: 1.7em 0;
+          border-radius: 5px;
+          color: #f8f8f2;
+          font-family: Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace;
+          text-align: left;
+          line-height: 1.5;  
+          white-space: nowrap;
+          word-wrap: normal;
+          text-align: left;
+          word-spacing: normal;
+          word-break: normal;
+      } 
+     .token-tag-1{
+         color: #f92672;
+     }
+     .img-01{
+         border: 2px solid #bdbdbd;
+         margin: auto;
+         height: auto;
+         display: block;
+        max-width: 100%;
+     } 
+     .nd{
+         padding: 10px 40px 20px 25px;
+         font-size: 17px;
+         color: white;
+     }
+     .e-mail{
+         width: 100%;
+         padding: 5px 5px 5px 5px;
+         height: 25px;
+     }
+     .bt{
+         width: 300px;
+         height: 35px;
+         margin-top: 10px;
+         background-color:rgb(32, 163, 158); 
+        padding-top: 4px;
+         border: none;
+         border-radius: 3px;
+         color: white;
+         font-size: 17px;
+         text-align: center;    
+     }
+     hr{
+         background-color: white;
+         height: 1px;
+         width: 295px;
+     }
+    </style>
+</head>
+<body>
+    <header class="head">
+        <div class="main">
+            <section class="img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLYNbqnEf0UmKNUMl-qZrNuyWRpAMitptVrGx4Re_eotKkfwdfpQ" width="30%" height="50px" style=" border-radius: 15%"/>
+            </section>
+            <nav class="about">
+                <h1>ABOUT</h1>
+            </nav>
+        </div>
+    </header><br/><br/>
+    <main class="a1">
+        <div class="left">
+            <img src="https://coder-coder.com/wp-content/uploads/2018/01/make-super-simple-html-website.jpg" width="100%"/>
+            <div class="content">
+                <h1>How to make a super simple website in HTML (for absolute beginners)</h1>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/cnt_rMA1pe0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <p>Are you curious about learning to code, but don’t know where to start? If you want to get your feet wet, you can follow this tutorial to make your first basic website in HTML!</p>
+                <p>We’ll be going over 3 things:
+                    <ol type="1">
+                        <li>what HTML is</li>
+                        <li>some basic HTML syntax</li>
+                        <li>and how to make a local website on your computer.</li>
+                    </ol>
+                </p>
+                <p>Just a note, this post is geared toward complete beginners who have never worked with HTML before.</p>
+                <p>There won’t be any CSS or JavaScript involved, so keep in mind that this webpage we’ll be making won’t be all that pretty. It’s just focused on showing you HTML and its basic functionality.</p>
+                <p>Sounds good? Let’s get started!</p>
+                <h2>What is HTML?</h2>
+                <p>Now, what is HTML? HTML stands for<strong> HyperText Markup Language</strong>.</p>
+                <p>It’s a way of displaying information on web pages in your browser.</p>
+                <p>One thing to remember is that HTML isn’t itself a programming language. It’s a markup language. Programming languages like PHP or Java use things like logic and conditions to control the content.</p>
+                <p>HTML doesn’t do those things, but it’s still extremely important. It makes up every single website in existence, after all!</p>
+                <h2>Loading an HTML file in your browser</h2>
+                <p>You can actually create an HTML file on your computer, and load it in your browser. It won’t be on the internet, so only your local computer can view it.</p>
+                <p>For real websites that anyone can access on the internet, the HTML files are stored on computers called servers. But the basic process is pretty similar.</p>
+                <p>To create your HTML file:</p>
+                <ol type="1">
+                    <li>Go to your desktop or wherever you want to put the file.</li>
+                    <li>Then right click and select “New” and “Text Document.” Make sure that the filename reads “index.html” and doesn’t end in “.txt.”<br/>(If for some reason you can’t see the file extension, click on the “View” tab and make sure that the “File name extensions” checkbox is checked.)</li>
+                    <li>When you have your file all set, you’ll want to open it in your browser.</li>
+                    <li>If it has a Chrome or other browser icon on the left, that means you can double click to automatically open it. If it doesn’t, right-click and then select “Open with” and choose your favorite browser.</li>
+                    <li>In the browser, everything will look blank, which is fine because the file doesn’t have anything in it yet.</li>
+                </ol>
+                <h2>Editing the file</h2>
+                <p>Now that you have your file set up, you’re ready to start coding!</p>
+                <p>To edit your HTML file you’ll want to open it in a code editor. Right click the file, and either select “Open with” and the editor, or some editors will have a quick link from the menu.</p>
+                <p>I’m using Visual Studio Code, but you can use other programs like:</p>
+                <ul>
+                    <li>Notepad++</li>
+                    <li>Sublime</li>
+                    <li>Atom</li>
+                    <li>Brackets</li>
+                </ul>
+                <p>Now that you have the index file open in both your browser and your editor, we’ll start writing some code!</p>
+                <h2>HTML Tags</h2>
+                <p>Let’s look at some of the basic features of HTML.</p>
+                <p>HTML is made up of tags.</p>
+                <b>Tags are special text that you use to mark up, or distinguish, parts of your web page. Hence the hypertext “markup” language.</b>
+                <p>These tags tell the browser to display whatever is inside the tag in a specific way.</p>
+                <p>Here’s one example of a tag in action:</p>
+                <pre class="language-makeup">
+                    <code class="language-makeup">This is my very first website and I’m 
+                            <span class="token-tag"><<span class="token-tag-1">b</span>> </span>
+                            extremely excited!!!!!
+                            <span class="token-tag"><</span>/<span class="token-tag-1">b</span>> </span>
+                    </code>
+                </pre>
+                <p>You can see that the words “extremely excited” are in these 
+                    <code>
+                         <span class="token-tag"><<span class="token-tag-1">b</span>> </span>
+                    </code>
+                     tags– “b” is for bold.
+                </p>
+                <p>Now let’s save the file, and reload your browser. The text should look like this:</p>
+                <img class="img-01"src="https://coder-coder.com/wp-content/uploads/2017/12/first-website.png">
+                <p>All right! You just wrote some HTML. Feel excited yet? 🙂</p>
+                <h2>Anatomy of an HTML tag</h2>
+                <p>Let’s look at the tag again.</p>
+                <p>The tag before the phrase is called the opening tag —
+                    <span class="token-tag"><<span class="token-tag-1">b</span>> </span>
+                </p>
+                <p>
+                    And the tag after the phrase is the closing tag —  
+                    <span class="token-tag"><<span class="token-tag-1">b</span>> </span>
+                    . You can see that the closing tag has a forward slash before the “b.”
+                </p>
+                <p>Together, these two tags tell the browser to make whatever text is between them bold. And that’s exactly what’s happened.</p>
+                <p>Now maybe this is obvious, but when the browser loads the HTML, the tags themselves are invisible– they don’t show up on the page.</p>
+                <p>Pretty cool, eh? One reason I love making websites so much is that it’s almost like magic, being able to make things appear in your browser</p>
+                <h2>Basic structure of an HTML document</h2>
+                <p>Now, that line of text that we wrote is working because we saved the file as an HTML file that your browser can recognize.</p>
+                <p>But for real HTML on the internet, we need to add some more tags to the file in order for everything to work properly.</p>
+                <h2>Doctype and HTML tags</h2>
+                <p>The very first tag you need is the doctype tag. It’s not exactly an HTML tag, but it tells the browser that this is an HTML5 document.</p>
+                <p>
+                        Here’s what it looks like: 
+                        <span class="token-tag"><<span class="token-tag-1">!DOCTYPE html</span>> </span>
+                </p>
+                <p>This tag doesn’t require a closing tag because it’s not surrounding any text, it’s just declaring that this is HTML.</p>
+                <p>Other doctypes that were used in the past are HTML 4 or XHTML. But right now HTML 5 is really the only doctype used.</p>
+                <p>After the doctype, you have an HTML tag. This one tells the web browser that everything inside it is HTML:</p>
+                <pre>
+                    <code class="language-makeup">
+                        <span class="token-tag"><<span class="token-tag-2"style="color:#b2b2b2">!DOCTYPE html</span>> </span>
+                        <span class="token-tag"><<span class="token-tag-2">html</span>> </span> 
+                    </code>
+                </pre>
+            </div>
+        </div>
+        <div class="right">
+            <div class="nd">
+                <h2>Want to learn web development?</h2>
+                <p>Subscribe to get emails about new posts, news, and promotions. Unsubscribe anytime.</p>
+                <input type="email" class="e-mail" placeholder="Your Email">
+                <button class="bt">SUBSCRIBE</button>
+                <p>Learn more at our<span style="color:rgb(56, 166, 255);"> Privacy Policy.</span></p><br/>
+                <hr>
+                <br/>
+                <h2>Follow Us</h2>
+                <span><i class="fa fa-instagram" style="font-size:30px"></i></span>
+                <span><i class="fa fa-twitter" style="font-size:30px;padding-left:20px"></i></span>
+                <span><i class="fa fa-facebook" style="font-size:30px;padding-left:20px"></i></span><br/><br/>
+                <hr><br/>
+                <b>Affiliate Disclaimer</b>
+                <p>I participate in various affiliate programs. As an Amazon Associate I earn from qualifying purchases. But I only recommend products that I personally know and think would be helpful to you-- it's one way that you can support this site!</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
