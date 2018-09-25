@@ -1,17 +1,20 @@
 .active{
     border-bottom: 3px solid white;
-    padding-bottom: 3px;
+    text-decoration: none;
 }
 a:hover{
-    border-bottom: 3px solid rgba(255, 255, 255, 0.808);
+    border-bottom: 3px solid white;
     padding-bottom: 3px;
 }
-body{
-    height:100vh;  
+a{
+    border-bottom: 3px solid #6c757d;    
 }
 .Header{
     height: 300px;
 }
 .main{
     height: 400px;
+}
+body{
+    height: 100vh;
 }
