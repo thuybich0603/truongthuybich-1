@@ -1,0 +1,80 @@
+.header{
+    height: 100px;
+}
+.fa-cart{
+   font-size: 28px;
+}
+.border_left{
+    border-left: 1px solid white;
+    margin-left: 10px;
+}
+.fa-search{
+    font-size: 24px;
+    margin-left: 10px;
+}
+.img_carrousel{
+    height:650px;
+}
+.author{
+    background-image: url("http://demo.posthemes.com/pos_ogani/layout2/themes/pos_ogani2/assets/img/bkt-testimo1.jpg");
+    height:600px;
+    margin-top: 100px;
+}
+.section{
+    height:450px;
+    margin-top: 80px;
+    
+}
+.td{
+font-size: 70px;
+color: #7d6948;
+font-family: 'Herr Von Muellerhoff', cursive;
+font-style: italic;
+}
+.Img_title{
+    width: 350px;
+    height: auto;
+}
+.post{
+    height:300px;
+}
+.datetime{
+    height:110px;
+    width:100px;
+    box-shadow: 0 0 5px #8f8b8b;
+}
+.date{
+    font-size: 45px;
+    color: rgb(37, 83, 37);
+}
+.month_year{
+    font-size: 12px; 
+    border-top: 1px solid #c7c1c1;
+}
+.a_content_post{
+    font-size: 32px;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.text_lead{
+    font-size: 18px;
+}
+.btn-danger{
+    width:100px;
+    height:60px
+}
+.p_post{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.footer{
+    height:350px;
+    background-color: black;
+    margin-top: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+ul li{
+    list-style-type: none;
+
+}

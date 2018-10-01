@@ -1,0 +1,32 @@
+.header{
+    height: 80px;
+}
+.nav-link{
+    color: #5e360f;;
+}
+.fa-chevron-down{
+    font-size: 10px;
+}
+.btn-success{
+    width: 90px;
+    height: 40px;
+}
+.img{
+    height:500px;
+}
+.section{
+    height: 60px;
+}
+.chinh{
+    background-image: url("https://apollotran.com/prestashop/leo_wine_store/themes/leo_wine_store/assets/img/bg_body.png");
+}
+.fa-star{
+    color:yellow;
+}
+
+
+
+
+
+
+
