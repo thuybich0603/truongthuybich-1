@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="BS4.css">
+    <style>
+        
+       table, tr,th,td{
+            border: 1px solid #f2f2f2;
+            border-collapse: collapse;
+        }    
+    </style>
+</head>
+<body>
+    <!-- <p>ho va ten</p>
+    <button id="btn">Click here</button> -->
+    <!-- <table>
+        <thead>
+            <th>STT</th>
+            <th>Name</th>
+            <th>Email</th>          
+        </thead>
+        <tbody>
+            <tr>
+                <th>1</th>
+                <td>Bich</td>
+                <td>bich@gmail.com</td>
+            </tr>
+            <tr>
+                <th>2</th>
+                <td>Hong</td>
+                <td>hongthuy@gmail.com</td>
+            </tr>
+        </tbody>
+    </table> -->
+    <div id="div_table">
+    
+    </div>
+    <script>
+        var table = '<table id = "t_table"></table>';
+        $("#div_table").append(table);
+        var thead = '<thead id="t_thead" class="bg-success text-light"></thead>';
+        $(thead).appendTo("#t_table");
+        var tr = '<tr id = "tr_thead"></tr>';
+        $(tr).appendTo("#t_thead");
+        var th = '<th id ="th_thead">STT</th> <th>Name</th> <th>Email</th>';
+        $(th).appendTo("#tr_thead");
+
+        var tbody = '<tbody id = "t_tbody"></tbody>';
+        $("#t_thead").after(tbody);
+        var tr_tbody = '<tr id="trbody"></tr>';
+        $(tr_tbody).appendTo("#t_tbody");
+        var th_tbody = '<th id="thbody">1</th>';
+        $(th_tbody).appendTo("#t_tbody");
+        var td_tbody = '<td id="tdbody">Thuy Bich</td> <td>thuybichtruong06031998@gmail.com</td>';
+        $(td_tbody).appendTo("#t_tbody");
+        $(tr_tbody).appendTo("#t_tbody");
+        var th_tbody = '<th id="thbody">2</th>';
+        $(th_tbody).appendTo("#t_tbody");
+        var td_tbody = '<td id="tdbody">Thuy Hong</td> <td>thuyhongdhbk06031998@gmail.com</td>';
+        $(td_tbody).appendTo("#t_tbody");
+        $(tr_tbody).appendTo("#t_tbody");
+        var th_tbody = '<th id="thbody">3</th>';
+        $(th_tbody).appendTo("#t_tbody");
+        var td_tbody = '<td id="tdbody">Thanh Lan</td> <td>thanhlan@gmail.com</td>';
+        $(td_tbody).appendTo("#t_tbody");
+        $(tr_tbody).appendTo("#t_tbody");
+        var th_tbody = '<th id="thbody">4</th>';
+        $(th_tbody).appendTo("#t_tbody");
+        var td_tbody = '<td id="tdbody">Thanh Van</td> <td>vanMayxanh@gmail.com</td>';
+        $(td_tbody).appendTo("#t_tbody");
+        $(tr_tbody).appendTo("#t_tbody");
+        var th_tbody = '<th id="thbody">5</th>';
+        $(th_tbody).appendTo("#t_tbody");
+        var td_tbody = '<td id="tdbody">Tam Kien</td> <td>kien2016@gmail.com</td>';
+        $(td_tbody).appendTo("#t_tbody");
+    </script>
+
+
+
+
+
+
+    <!-- <script>
+        var table = '<table id="t_table" class=""></table>';
+        $("#div_table").append(table);
+        var thead = '<thead id="t_thead"class="bg-success text-light"</thead>';
+        $(thead).appendTo("#t_table");
+        var tr = '<tr id="t_tr"></tr>';
+        $(tr).appendTo("#t_thead");
+        var th = '<th>STT</th> <th>Name</th> <th>Email</th>';
+        $(th).appendTo("#t_tr");
+
+
+        var tboby = '<tbody id="t_tbody"></tbody>';
+        $("#t_thead").after(tboby);
+        var tr_tbody = '<tr id="trbody"></tr>';
+        $(tr_tbody).appendTo("#t_tbody");
+        var th_tbody = '<th id="thbody">1</th>';
+        $(th_tbody).appendTo("#t_tbody");
+        var td_tbody = '<td id="tdbody">Bich</td> <td>bich@gmail.com</td>';
+        $(td_tbody).appendTo("#t_tbody");
+
+         var tr_tbody = '<tr id="trbody"></tr>';
+        $(tr_tbody).appendTo("#t_tbody");
+        var th_tbody = '<th id="thbody">2</th>';
+        $(th_tbody).appendTo("#t_tbody");
+        var td_tbody = '<td id="tdbody">Hong</td> <td>hongthuytruong@gmail.com</td>';
+        $(td_tbody).appendTo("#t_tbody");
+
+         var tr_tbody = '<tr id="trbody"></tr>';
+        $(tr_tbody).appendTo("#t_tbody");
+        var th_tbody = '<th id="thbody">3</th>';
+        $(th_tbody).appendTo("#t_tbody");
+        var td_tbody = '<td id="tdbody">Lan</td> <td>thanhlan.tl9x@gmail.com</td>';
+        $(td_tbody).appendTo("#t_tbody");
+        
+    </script> -->
+    
+    <!-- <script>
+        var ten = document.createElement("H2");
+        var t = document.createTextNode("Truong Thuy Bich");
+        ten.appendChild(t);
+        document.body.appendChild(ten);
+        var ten = document.createElement("p");
+        var t = document.createTextNode("adress: 119 ong ich duong");
+        ten.appendChild(t);
+        document.body.appendChild(ten); -->
+        
+        <script>
+        // $(document).ready(function(){
+        //     $("#btn").click(function(){
+        //         $("p").append("<i>Truong Thuy Hong</i>");
+        //     });
+        // });
+    </script>   
+    
+</body>    
+</html>

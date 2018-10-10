@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <button id="image-bat">Bat</button>
+    <img src="off.gif" id="myImage">
+    <button id="image-tat">Tat</button>
+    <button onclick="batTatden()" id="batTat">Bat/Tat</button>
+    <br><br>
+    <div id="div-red" style="height:200px;width:100%;background-color: red;display: none;">
+    </div>
+    <button id="hien_div" onclick="hienDiv()">Hien </button>
+    <button id="an_div" onclick="anDiv()">An </button>
+   
+    <button onclick="anHienDiv()" id="hien">an hien</button>
+    <script>
+       var a= document.getElementById("div-red");
+        function hienDiv(){
+            a.style.display="block";
+        }
+        function anDiv(){
+            a.style.display="none";
+        }
+        function anHienDiv(){
+            if(a.style.display === "none"){
+            a.style.display = "block";
+        }
+        else{
+            a.style.display ="none";
+        }
+        }
+        
+        function batTatden(){
+            var bt = document.getElementById('myImage');
+            if(bt.src.includes('off.gif'))
+            {
+                bt.src="on.gif";
+            }
+            else
+            {
+                bt.src="off.gif";
+            }
+        }
+    </script> 
+</body>
+</html>

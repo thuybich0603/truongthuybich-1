@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+  <!--  <p id="demo" style="color:blue">Bich</p>
+    <button onclick="quetNha()">Thong bao</button>
+    <script>
+       
+        function quetNha(){
+            console.log(document.getElementById('demo').style.color="pink");    
+        }   
+    -->
+    
+   <!-- Tạo bóng đèn với một nút
+        <img id="js_image" src="off.gif" alt="denTat">
+    <button onclick="batTat()">Bat/Tat</button>
+    <script>
+        var a=document.getElementById('js_image');
+        function batTat(){
+            if(a.src.includes("off.gif"))
+            {
+                a.src="on.gif";
+            }
+            else{
+                a.src="off.gif";
+            }
+        }
+    </script>
+    -->
+
+    <button onclick="batDen()">Bật Đèn</button>
+    <img id="js_image" src="off.gif">
+    <button onclick="tatDen()">Tắt Đèn</button>
+    <script>
+        var a =document.getElementById("js_image");
+        function batDen(){
+            a.src="on.gif";
+        }
+        function tatDen(){
+            a.src="off.gif";
+        }
+    </script>
+</body>
+
+</html>

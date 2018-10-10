@@ -1,9 +1,16 @@
 .Header{
-    height: 50px;
+    height: 60px;
 }
 .fa-bars{
-    font-size: 30px;
+    font-size: 20px;
 }
 .main{
     height :400px;
+}
+.div_do{
+    height: 200px;
+    
+}
+li{
+    list-style: none;
 }
