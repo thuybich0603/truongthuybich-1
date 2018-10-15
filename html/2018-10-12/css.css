@@ -1,0 +1,14 @@
+.cardImage1{
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)), url(images/anh1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 245px;
+    
+}
+ul li{
+    display:block;
+    height: 40px;
+    
+}
+
