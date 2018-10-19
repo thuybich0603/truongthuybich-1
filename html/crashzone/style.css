@@ -1,0 +1,92 @@
+.header{
+    position :fixed;
+    z-index: 1;
+    height: 80px;
+}
+.menu ul li{
+    list-style: none;
+}
+.a-active{
+    background-color: yellow; 
+    padding: 5px ;
+   
+}
+.menu ul li:hover{
+    background-color: #bdbdbd;
+    color: black;
+    padding: 5px;
+}
+.carousel img{
+    height: 800px;
+    
+}
+.h1-text{
+    color:yellow;
+}
+.image_1{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),  url('http://101.0.86.110:6688/storage/images/20181001/20181001-1538375868000-da9eeace-e6b8-3666-b893-63e3590e9e3c-19-cz-remove-panel.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.image_2{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),  url('http://101.0.86.110:6688/storage/images/20181001/20181001-1538367586000-880c67c3-96eb-37fe-b2c1-7f27bdd422c2-35-cz-hail-damage.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.image_3{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),  url('http://101.0.86.110:6688/storage/images/20181001/20181001-1538367586000-880c67c3-96eb-37fe-b2c1-7f27bdd422c2-35-cz-hail-damage.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.crashzone_system{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('http://101.0.86.110:6688/storage/images/20181001/20181001-1538376134000-ef6acb09-3a55-3446-beab-3cc776838036-8-cz-eighth.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card_yellow{
+    background-color: yellow;
+    
+}
+.information{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('http://101.0.86.110:6688/storage/images/20181001/20181001-1538367565000-a847ef80-eecb-3a1f-a211-f0d161e6bcb8-30-cz-man-paiting-car-parts.png');
+    height:300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn-register{
+    background-color: yellow;
+}
+.content{
+    background-image: url('http://blog.crashzone.com.au/static/media/au.3ee975a9.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Sign-up{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('http://101.0.86.110:6688/storage/images/20181001/20181001-1538376097000-786105a6-6e77-3c3e-a9b4-fadecc5b066a-6-cz-sixth.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.title{
+    color: yellow;
+}
+.btn-sign_up{
+    background-color: yellow;
+}
+.footer{
+    background-color: rgb(56, 55, 55);
+    line-height: 1.5;
+}
+
+

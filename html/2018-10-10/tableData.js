@@ -23,6 +23,7 @@ $(document).ready(function(){
         //   var tdBody = '<td>' + user.name + '</td><td>' + user.email + '</td><td>' + user.password + '</td><td>' + user.created_at + '</td><td>' + user.updated_at + '</td><td>';
         //$('#trbody-' + index).append(thBody, tdBody);
         // });
+       
         var cardGroup = '<div class="card-group" id="cGroup"></div>';
         $('#div_card1').append(cardGroup);
 
