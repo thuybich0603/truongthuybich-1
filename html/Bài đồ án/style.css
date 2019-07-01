@@ -1,0 +1,9 @@
+#searchform {
+    position: relative;
+    width: 218px;
+    display: inline-block;
+}
+#searchsubmit{
+    position: absolute;
+    font-size: 24px;
+}

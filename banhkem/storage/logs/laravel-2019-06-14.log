@@ -1,0 +1,4 @@
+[2019-06-14 05:58:34] local.ERROR: Maximum execution time of 30 seconds exceeded {"userId":8,"email":"thuybichtruong06031998@gmail.com","exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Maximum execution time of 30 seconds exceeded at D:\\Xampp\\htdocs\\banhkem\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:326)
+[stacktrace]
+#0 {main}
+"} 
